@@ -12,6 +12,14 @@ Randomizer [Archipelago](https://archipelago.gg) pour *Mars Horizon* (Auroch Dig
 Roadmap et prompt : `Mars Horizon × Archipelago — Prompt & Roadmap.pdf`.
 Version visée : **Mars Horizon v1.4.2.1** (Steam, build Mono), **BepInEx 5.4.23.5 x64**.
 
+## Jouer (V1)
+
+Voir [`docs/INSTALL.md`](docs/INSTALL.md) : BepInEx 5, plugin, APWorld, F8 pour se connecter, nouvelle partie.
+Livrables : `python tools/package.py` → `dist/mars_horizon.apworld` et `dist/MarsHorizonAP-<version>.zip`.
+
+Test de bout en bout sans interface (serveur local, nouvelle partie liée, recherches, tours, constructions, jalons,
+sauvegarde/relecture) : activer `[Test] Enabled = true` dans la config du plugin ; résultat `[SELFTEST]` dans le log BepInEx.
+
 ## Mise en place (dev)
 
 1. Installer BepInEx 5 x64 dans le dossier du jeu, lancer le jeu une fois.

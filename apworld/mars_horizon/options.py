@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from Options import Choice, DeathLinkMixin, OptionGroup, PerGameCommonOptions, Range, Toggle
+from Options import Choice, OptionGroup, PerGameCommonOptions, Range, Toggle
 
 
 class Agency(Choice):
@@ -85,7 +85,7 @@ class FillerStrength(Range):
 
 
 @dataclass
-class MarsHorizonOptions(DeathLinkMixin, PerGameCommonOptions):
+class MarsHorizonOptions(PerGameCommonOptions):
     agency: Agency
     goal: Goal
     milestone_goal_count: MilestoneGoalCount

@@ -20,3 +20,6 @@ __pycache__/
 
 # Sorties d'extraction brutes (phase 1)
 tools/output/
+
+# Livrables (tools/package.py)
+dist/

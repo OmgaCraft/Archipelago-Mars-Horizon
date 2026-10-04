@@ -1,3 +1,4 @@
+extern alias fp;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -453,7 +454,7 @@ namespace MarsHorizonAP.Dump
         // Textes bruts des CSV de localisation (StreamingAssets/Localisations), en anglais et en français.
         private sealed class Loc
         {
-            private readonly Localisation localisation = ScriptableObjectSingleton<Localisation>.instance;
+            private readonly fp::Localisation localisation = fp::ScriptableObjectSingleton<fp::Localisation>.instance;
             private readonly int en;
             private readonly int fr;
 
@@ -467,7 +468,7 @@ namespace MarsHorizonAP.Dump
             {
                 foreach (string tag in tags)
                 {
-                    Localisation.Entry entry = localisation.GetEntry(tag);
+                    fp::Localisation.Entry entry = localisation.GetEntry(tag);
                     string english = Text(entry, en);
                     if (english != null)
                     {
@@ -492,7 +493,7 @@ namespace MarsHorizonAP.Dump
                 text = text.Replace("\\n", "\n");
                 for (int i = 0; i < 32; i++)
                 {
-                    System.Text.RegularExpressions.Match match = Localisation.variablePattern.Match(text);
+                    System.Text.RegularExpressions.Match match = fp::Localisation.variablePattern.Match(text);
                     if (!match.Success)
                     {
                         break;
@@ -503,7 +504,7 @@ namespace MarsHorizonAP.Dump
                 return text.Trim();
             }
 
-            private static string Text(Localisation.Entry entry, int locale)
+            private static string Text(fp::Localisation.Entry entry, int locale)
             {
                 if (entry?.texts == null || locale < 0 || locale >= entry.texts.Length)
                 {

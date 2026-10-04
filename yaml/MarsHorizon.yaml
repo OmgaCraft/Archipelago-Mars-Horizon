@@ -1,0 +1,25 @@
+# Exemple de YAML pour Mars Horizon. Toutes les options sont décrites sur la page d'options du jeu.
+name: TonNom
+game: Mars Horizon
+requires:
+  version: 0.6.4
+
+Mars Horizon:
+  # Agence jouée : usa, russia, europe, china ou japan. Choisis la même dans le jeu.
+  agency: usa
+
+  # But : crewed_mars_landing (premier humain sur Mars) ou milestones (N jalons).
+  goal: crewed_mars_landing
+  milestone_goal_count: 20
+
+  # Commence avec le petit pas de tir (recommandé : sans lui, aucun lancement n'est possible au départ).
+  starting_launchpad: true
+
+  # Mélange les permis de construction des bâtiments dans le multiworld.
+  shuffle_buildings: true
+
+  # Items de remplissage : poids relatifs et taille (100 = valeur de base).
+  filler_funds_weight: 50
+  filler_science_weight: 30
+  filler_support_weight: 20
+  filler_strength: 100

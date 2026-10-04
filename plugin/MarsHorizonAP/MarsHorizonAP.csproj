@@ -6,7 +6,7 @@
     <AssemblyName>MarsHorizonAP</AssemblyName>
     <RootNamespace>MarsHorizonAP</RootNamespace>
     <LangVersion>latest</LangVersion>
-    <Version>0.0.1</Version>
+    <Version>0.1.0</Version>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <GenerateDocumentationFile>false</GenerateDocumentationFile>
     <!-- Copier le plugin dans le jeu après compilation (désactiver avec -p:DeployToGame=false) -->
@@ -15,9 +15,23 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" PrivateAssets="all" />
+    <!-- Seule la version net35 (websocket-sharp) est utilisée : System.Net.WebSockets est peu fiable sous Mono/Unity 2019. -->
+    <PackageReference Include="Archipelago.MultiClient.Net" Version="6.7.1" GeneratePathProperty="true" ExcludeAssets="compile;runtime;build" />
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="Archipelago.MultiClient.Net">
+      <HintPath>$(PkgArchipelago_MultiClient_Net)\lib\net35\Archipelago.MultiClient.Net.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>$(PkgArchipelago_MultiClient_Net)\lib\net35\Newtonsoft.Json.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>$(PkgArchipelago_MultiClient_Net)\lib\net35\websocket-sharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
     <Reference Include="BepInEx">
       <HintPath>$(BepInExDir)\core\BepInEx.dll</HintPath>
       <Private>false</Private>
@@ -30,9 +44,11 @@
       <HintPath>$(GameManagedDir)\Assembly-CSharp.dll</HintPath>
       <Private>false</Private>
     </Reference>
-    <!-- Localisation, ScriptableObjectSingleton, Newtonsoft.Json (embarqué par le jeu) -->
+    <!-- Localisation, ScriptableObjectSingleton... : alias « fp » car le jeu y embarque sa propre copie de
+         Newtonsoft.Json, qui entrerait en conflit avec celle de MultiClient.Net. -->
     <Reference Include="Assembly-CSharp-firstpass">
       <HintPath>$(GameManagedDir)\Assembly-CSharp-firstpass.dll</HintPath>
+      <Aliases>fp</Aliases>
       <Private>false</Private>
     </Reference>
     <Reference Include="UnityEngine">
@@ -47,11 +63,30 @@
       <HintPath>$(GameManagedDir)\UnityEngine.IMGUIModule.dll</HintPath>
       <Private>false</Private>
     </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>$(GameManagedDir)\UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>$(GameManagedDir)\UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Table d'IDs figée de l'APWorld : le plugin n'a pas à deviner les correspondances. -->
+    <EmbeddedResource Include="..\..\apworld\mars_horizon\data\ids.json" LogicalName="ids.json" />
   </ItemGroup>
 
   <Target Name="DeployToGame" AfterTargets="Build" Condition="'$(DeployToGame)' == 'true'">
     <MakeDir Directories="$(BepInExDir)\plugins\MarsHorizonAP" />
-    <Copy SourceFiles="$(TargetPath);$(TargetDir)$(TargetName).pdb" DestinationFolder="$(BepInExDir)\plugins\MarsHorizonAP" SkipUnchangedFiles="true" />
+    <ItemGroup>
+      <DeployFiles Include="$(TargetPath);$(TargetDir)$(TargetName).pdb" />
+      <DeployFiles Include="$(PkgArchipelago_MultiClient_Net)\lib\net35\Archipelago.MultiClient.Net.dll" />
+      <DeployFiles Include="$(PkgArchipelago_MultiClient_Net)\lib\net35\Newtonsoft.Json.dll" />
+      <DeployFiles Include="$(PkgArchipelago_MultiClient_Net)\lib\net35\websocket-sharp.dll" />
+    </ItemGroup>
+    <Copy SourceFiles="@(DeployFiles)" DestinationFolder="$(BepInExDir)\plugins\MarsHorizonAP" SkipUnchangedFiles="true" />
     <Message Importance="high" Text="MarsHorizonAP -> $(BepInExDir)\plugins\MarsHorizonAP" />
   </Target>
 

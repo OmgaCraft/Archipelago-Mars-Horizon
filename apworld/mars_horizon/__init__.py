@@ -191,7 +191,7 @@ class MarsHorizonWorld(World):
         items = {str(ITEM_ID_BY_NAME[ITEM_NAME_BY_KEY[k]]): k for k in self.item_keys}
         data: Dict[str, Any] = self.options.as_dict(
             "agency", "goal", "milestone_goal_count", "starting_launchpad", "shuffle_buildings",
-            "filler_strength", "death_link")
+            "filler_strength")
         data.update({
             "agency_name": self.agency_name,
             "locations": locations,
