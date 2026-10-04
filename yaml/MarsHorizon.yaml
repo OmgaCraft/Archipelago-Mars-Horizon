@@ -15,6 +15,7 @@ Mars Horizon:
   # Commence avec le petit pas de tir (recommandé : sans lui, aucun lancement n'est possible au départ).
   starting_launchpad: true
 
+
   # Mélange les permis de construction des bâtiments dans le multiworld.
   shuffle_buildings: true
 

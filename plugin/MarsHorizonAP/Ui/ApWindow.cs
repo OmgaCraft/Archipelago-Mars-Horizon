@@ -11,7 +11,11 @@ namespace MarsHorizonAP.Ui
     internal sealed class ApWindow
     {
         private const int WindowId = 7658100;
-        private Rect rect = new Rect(30, 30, 380, 260);
+        private Rect rect = new Rect(30, 30, 520, 440);
+        private int tab;
+        private Vector2 scroll;
+        private System.Collections.Generic.List<MissionRow> rows = new System.Collections.Generic.List<MissionRow>();
+        private float nextRefresh;
         private bool open;
         private string server;
         private string slot;
@@ -43,6 +47,14 @@ namespace MarsHorizonAP.Ui
         {
             ApSession s = ApGame.Session;
             GUILayout.BeginVertical();
+            tab = GUILayout.Toolbar(tab, new[] { "Connexion", "Missions" });
+            if (tab == 1)
+            {
+                DrawMissions(s);
+                GUILayout.EndVertical();
+                GUI.DragWindow();
+                return;
+            }
             GUILayout.Label($"Statut : {StatusText(s)}");
             if (!string.IsNullOrEmpty(s.Error) && s.Status == ApStatus.Failed)
             {
@@ -96,6 +108,45 @@ namespace MarsHorizonAP.Ui
             GUILayout.Label("Lance la nouvelle partie APRÈS la connexion, avec la même agence que ton slot.");
             GUILayout.EndVertical();
             GUI.DragWindow();
+        }
+
+        private void DrawMissions(ApSession s)
+        {
+            if (!s.Connected)
+            {
+                GUILayout.Label("Connecte-toi pour voir ce qui manque à chaque mission.");
+                return;
+            }
+            if (Time.realtimeSinceStartup > nextRefresh)
+            {
+                nextRefresh = Time.realtimeSinceStartup + 1f;
+                rows = MissionPlanner.Compute(s);
+            }
+            int ready = rows.Count(r => r.Ready);
+            int todo = rows.Count(r => !r.Done);
+            GUILayout.Label($"{ready} mission(s) prête(s) sur {todo} restantes. « Indice » demande au serveur où se trouve l'item.");
+            scroll = GUILayout.BeginScrollView(scroll, GUILayout.Height(345));
+            foreach (MissionRow row in rows.Where(r => !r.Done).Take(40))
+            {
+                GUILayout.BeginVertical(GUI.skin.box);
+                GUILayout.Label((row.Ready ? "<color=#7CFC9A>PRÊTE</color>  " : "") + "<b>" + row.Name + "</b>", Rich());
+                foreach (string item in row.Missing)
+                {
+                    GUILayout.BeginHorizontal();
+                    GUILayout.Label("  manque : " + item);
+                    if (GUILayout.Button("Indice", GUILayout.Width(70)))
+                    {
+                        s.Say("!hint " + item);
+                    }
+                    GUILayout.EndHorizontal();
+                }
+                if (row.BlockedBy.Count > 0)
+                {
+                    GUILayout.Label("  d'abord : " + string.Join(", ", row.BlockedBy.ToArray()));
+                }
+                GUILayout.EndVertical();
+            }
+            GUILayout.EndScrollView();
         }
 
         private static GUIStyle Rich() => new GUIStyle(GUI.skin.label) { richText = true, wordWrap = true };

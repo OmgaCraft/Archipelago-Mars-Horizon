@@ -48,3 +48,4 @@ class TestMissionLogic(MarsHorizonTestBase):
     def test_research_items_are_unique(self) -> None:
         names = [i.name for i in self.multiworld.itempool if i.name not in ("Funding Grant", "Research Data", "Public Support")]
         self.assertEqual(len(names), len(set(names)))
+

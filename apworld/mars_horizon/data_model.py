@@ -51,6 +51,7 @@ class MissionInfo:
     milestone: str
     is_final: bool
     is_required_for_mars: bool
+    order: int = 0
 
 
 @dataclass
@@ -162,6 +163,7 @@ def missions(agency: str) -> Dict[str, MissionInfo]:
             milestone=m["primary_milestone"],
             is_final=m["is_final_mars_mission"],
             is_required_for_mars=m["is_mars_required_mission"],
+            order=m["mission_order"],
         )
     return out
 

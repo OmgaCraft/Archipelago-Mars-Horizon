@@ -17,6 +17,10 @@ LOCATION_NAME_BY_KEY: Dict[str, Dict[str, str]] = {}
 for _l in _LOCATIONS:
     LOCATION_NAME_BY_KEY.setdefault(_l["category"], {})[_l["key"]] = _l["name"]
 LOCATION_ID_BY_NAME: Dict[str, int] = {l["name"]: l["id"] for l in _LOCATIONS}
+RESEARCH_LOCATION_ERA: Dict[str, int] = {l["key"]: l["era"] for l in _LOCATIONS if l["category"] == "research"}
+SOUNDING_MISSION = "milestone_sounding_rocket"
+# Paliers d'attribution des missions : (nombre de missions, ère maximale des recherches qui portent leurs items).
+EARLY_TIERS = [(4, 1), (10, 2), (20, 3)]
 FILLER_NAMES = {"Filler_Funds": "Funding Grant", "Filler_Science": "Research Data", "Filler_Support": "Public Support"}
 
 VICTORY_EVENT = "Victory"
@@ -84,6 +88,83 @@ class MarsHorizonWorld(World):
         if not self.options.shuffle_buildings:
             self.precollected_keys += [k for k in self.item_keys if k in self.building_ids]
         self.precollected_keys = [k for k in dict.fromkeys(self.precollected_keys) if k in self.item_keys]
+        self.early_items = self._early_items()
+        # Items des premières missions : toujours dans ce monde (sur des recherches peu coûteuses) et indiqués
+        # dès le départ par un indice gratuit. Non modifiable après generate_early.
+        self.options.local_items.value |= set(self.early_items)
+        self.options.start_hints.value |= {n for n, era in self.early_items.items() if era <= EARLY_TIERS[0][1]}
+
+    def cheapest_requirements(self, mission_id: str) -> set:
+        """Items minimaux d'une mission : sa recherche, un payload, la fusée qui demande le moins d'items."""
+        logic = self.logic.mission_logic[mission_id]
+        best = None
+        for payload_item, event in logic.alternatives:
+            distance, weight = (int(x[1:]) for x in event.split()[2:4])
+            for option in self.logic.vehicle_classes[(distance, weight)]:
+                candidate = set(logic.items) | set(option) | ({payload_item} if payload_item else set())
+                if best is None or (len(candidate), sorted(candidate)) < (len(best), sorted(best)):
+                    best = candidate
+        return best or set(logic.items)
+
+    def _early_items(self) -> Dict[str, int]:
+        """Nom d'item -> ère maximale de la recherche qui peut le porter, pour les items des premières missions.
+
+        Toutes les recherches sont accessibles d'emblée mais coûtent de plus en plus de science : placer ces items sur
+        les recherches des premières ères évite de rester longtemps sans mission jouable."""
+        ordered = sorted((m for m in self.logic.missions.values()
+                          if m.id != SOUNDING_MISSION and not m.is_final and self.logic.mission_possible(m.id)),
+                         key=lambda m: (m.order, m.id))
+        pool = {ITEM_NAME_BY_KEY[k] for k in self.item_keys} - {ITEM_NAME_BY_KEY[k] for k in self.precollected_keys}
+        early: Dict[str, int] = {}
+        for index, mission in enumerate(ordered):
+            era = next((e for count, e in EARLY_TIERS if index < count), None)
+            if era is None:
+                break
+            for name in self.cheapest_requirements(mission.id) & pool:
+                early[name] = min(early.get(name, 9), era)
+        # Garde-fou : jamais plus d'items précoces que la moitié des recherches d'ère 0-1.
+        locations = dm.agency_research_location_keys(self.agency_name)
+        for _ in range(3):
+            slots = sum(1 for k in locations if RESEARCH_LOCATION_ERA.get(k, 9) <= 1)
+            if sum(1 for e in early.values() if e <= 1) <= slots // 2:
+                break
+            early = {n: e + 1 for n, e in early.items()}
+        return early
+
+    def _early_rule(self, location_era: int):
+        """Règle d'objet : un item précoce n'est accepté que sur une recherche d'ère assez basse.
+
+        location_era = 0 pour les bâtiments et jalons : ils n'en portent jamais."""
+        player, early = self.player, self.early_items
+
+        def rule(item) -> bool:
+            if item.player != player or item.name not in early:
+                return True
+            return location_era != 0 and location_era <= early[item.name]
+
+        return rule
+
+    def _mission_slot_data(self) -> Dict[str, Any]:
+        """Exigences de chaque mission, pour le panneau « Missions » du jeu (ce qui manque, indices)."""
+        missions: Dict[str, Any] = {}
+        for mission_id, logic in self.logic.mission_logic.items():
+            if not self.logic.mission_possible(mission_id):
+                continue
+            info = self.logic.missions[mission_id]
+            location = LOCATION_NAME_BY_KEY["milestone"].get(info.milestone)
+            if location is None:
+                continue
+            missions[mission_id] = {
+                "location": location,
+                "location_id": LOCATION_ID_BY_NAME[location],
+                "order": info.order,
+                "items": sorted(logic.items),
+                "payloads": [[p, ev] for p, ev in logic.alternatives],
+                "prerequisites": [p for p in logic.prerequisites if p in self.logic.mission_logic],
+            }
+        vehicles = {self.logic.vehicle_event_name(*key): _vehicle_options_for_slot(options)
+                    for key, options in self.logic.vehicle_classes.items() if options}
+        return {"list": missions, "vehicles": vehicles}
 
     def create_regions(self) -> None:
         player = self.player
@@ -98,11 +179,14 @@ class MarsHorizonWorld(World):
 
         for key in dm.agency_research_location_keys(self.agency_name):
             name = LOCATION_NAME_BY_KEY["research"][key]
-            research.locations.append(MarsHorizonLocation(player, name, LOCATION_ID_BY_NAME[name], research))
+            location = MarsHorizonLocation(player, name, LOCATION_ID_BY_NAME[name], research)
+            location.item_rule = self._early_rule(RESEARCH_LOCATION_ERA.get(key, 9))
+            research.locations.append(location)
 
         for key in dm.agency_building_location_keys(self.agency_name):
             name = LOCATION_NAME_BY_KEY["building"][key]
             location = MarsHorizonLocation(player, name, LOCATION_ID_BY_NAME[name], base)
+            location.item_rule = self._early_rule(0)
             rule = self.logic.building_rule(key, player)
             if rule is None:  # bâtiment inatteignable pour cette agence : pas de location
                 continue
@@ -117,6 +201,7 @@ class MarsHorizonWorld(World):
                 continue  # mission obsolète ou sans payload pour cette agence (ex. Sample Retrieval, remplacée)
             name = LOCATION_NAME_BY_KEY["milestone"][key]
             location = MarsHorizonLocation(player, name, LOCATION_ID_BY_NAME[name], space)
+            location.item_rule = self._early_rule(0)
             rules[key] = self.logic.mission_rule(mission_id, player)
             location.access_rule = rules[key]
             space.locations.append(location)
@@ -197,10 +282,15 @@ class MarsHorizonWorld(World):
             "locations": locations,
             "items": items,
             "filler": {str(ITEM_ID_BY_NAME[n]): k for k, n in FILLER_NAMES.items()},
+            "missions": self._mission_slot_data(),
             "game_version": dm.game_data()["meta"]["game_version"],
             "data_format": 1,
         })
         return data
+
+
+def _vehicle_options_for_slot(options, limit: int = 40):
+    return sorted((sorted(o) for o in options), key=lambda o: (len(o), o))[:limit]
 
 
 def _any_all(option_tuples, player):

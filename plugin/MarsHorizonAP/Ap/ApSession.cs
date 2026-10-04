@@ -33,6 +33,7 @@ namespace MarsHorizonAP.Ap
         private readonly ConcurrentQueue<Action> mainThread = new ConcurrentQueue<Action>();
         private int generation;
         private int enqueuedUpTo;
+        private readonly HashSet<string> receivedNames = new HashSet<string>();
 
         public volatile ApStatus Status = ApStatus.Disconnected;
         public volatile string Error = "";
@@ -52,6 +53,7 @@ namespace MarsHorizonAP.Ap
             Disconnect();
             int mine = Interlocked.Increment(ref generation);
             enqueuedUpTo = 0;
+            lock (receivedNames) { receivedNames.Clear(); }
             Status = ApStatus.Connecting;
             Error = "";
             ThreadPool.QueueUserWorkItem(_ => DoConnect(mine, server, slot, password));
@@ -166,6 +168,13 @@ namespace MarsHorizonAP.Ap
                     From = info.Player?.Name,
                 });
             }
+            lock (receivedNames)
+            {
+                for (int i = 0; i < all.Count; i++)
+                {
+                    receivedNames.Add(all[i].ItemDisplayName);
+                }
+            }
             enqueuedUpTo = all.Count;
         }
 
@@ -183,6 +192,11 @@ namespace MarsHorizonAP.Ap
             }
             list.Sort((a, b) => a.Index.CompareTo(b.Index));
             return list;
+        }
+
+        public bool HasReceived(string name)
+        {
+            lock (receivedNames) { return receivedNames.Contains(name); }
         }
 
         public bool HasPendingItems => !items.IsEmpty;
