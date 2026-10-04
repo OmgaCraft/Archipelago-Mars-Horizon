@@ -1,0 +1,22 @@
+# Code décompilé du jeu : propriété d'Auroch Digital, ne jamais le committer.
+# Se régénère avec tools/decompile.ps1
+decompiled/
+
+# Chemin local du jeu (voir plugin/GameDir.props.example)
+plugin/GameDir.props
+
+# .NET
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.apworld
+
+# Sorties d'extraction brutes (phase 1)
+tools/output/
