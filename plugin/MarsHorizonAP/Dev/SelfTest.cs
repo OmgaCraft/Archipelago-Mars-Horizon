@@ -60,6 +60,11 @@ namespace MarsHorizonAP.Dev
             Simulation sim = ApGame.Sim;
             Check(ApGame.IsBound(human), "partie liée à Archipelago (marqueur AP.game)");
 
+            int fundsBefore = human.funds, doneBefore = human.researchCompleted.Count;
+            sim.AgencyApplyCheat(human, Simulation.Cheat.IncreaseFunds);
+            sim.AgencyApplyCheat(human, Simulation.Cheat.CompleteAllResearch);
+            Check(human.funds == fundsBefore && human.researchCompleted.Count == doneBefore, "triches du jeu bloquées dans une partie liée");
+
             // --- items de départ -------------------------------------------------------------------------
             float t2 = Time.realtimeSinceStartup;
             while (!human.researchCompleted.Contains("building_launchpad_small") && Time.realtimeSinceStartup - t2 < 20f) { yield return null; }

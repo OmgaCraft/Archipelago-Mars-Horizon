@@ -74,6 +74,7 @@ namespace MarsHorizonAP
 
             var harmony = new Harmony(PluginGuid);
             TreeModePatches.Apply(harmony);
+            CheatBlocker.Apply(harmony);
             harmony.PatchAll(typeof(Plugin).Assembly);
             NewGameBinder.Install();
             window = new ApWindow();
