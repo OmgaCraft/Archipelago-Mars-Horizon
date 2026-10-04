@@ -1,4 +1,4 @@
-# Décompile le code de Mars Horizon dans decompiled/ (ignoré par git).
+﻿# Décompile le code de Mars Horizon dans decompiled/ (ignoré par git).
 #   decompiled/Assembly-CSharp/            : logique du jeu (namespace Astronautica)
 #   decompiled/Assembly-CSharp-firstpass/  : SaveLoad, EventStream, Localisation, Newtonsoft.Json...
 # Prérequis : dotnet tool install -g ilspycmd
