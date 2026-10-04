@@ -1,0 +1,4271 @@
+[
+ {
+  "id": 7658100001,
+  "key": "Building_HQ",
+  "category": "research",
+  "tree": "Base",
+  "node_class": "BuildingTechNodeData",
+  "era": 0,
+  "era_reward": false,
+  "node_category": "Building",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "HQ"
+ },
+ {
+  "id": 7658100002,
+  "key": "Building_VehicleHangar",
+  "category": "research",
+  "tree": "Base",
+  "node_class": "BuildingTechNodeData",
+  "era": 0,
+  "era_reward": false,
+  "node_category": "Building",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Vehicle Hangar"
+ },
+ {
+  "id": 7658100003,
+  "key": "Building_LaunchPad_Small",
+  "category": "research",
+  "tree": "Base",
+  "node_class": "BuildingTechNodeData",
+  "era": 0,
+  "era_reward": false,
+  "node_category": "Building",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Small Launchpad"
+ },
+ {
+  "id": 7658100004,
+  "key": "Building_ResearchLab",
+  "category": "research",
+  "tree": "Base",
+  "node_class": "BuildingTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Building",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Research Lab"
+ },
+ {
+  "id": 7658100005,
+  "key": "Building_RocketTestPad",
+  "category": "research",
+  "tree": "Base",
+  "node_class": "BuildingTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Building",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Rocket Test Pad"
+ },
+ {
+  "id": 7658100006,
+  "key": "Building_SpacecraftAssemblyFacility",
+  "category": "research",
+  "tree": "Base",
+  "node_class": "BuildingTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Building",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Spacecraft Assembly Facility"
+ },
+ {
+  "id": 7658100007,
+  "key": "Building_ResearchLab_Expand",
+  "category": "research",
+  "tree": "Base",
+  "node_class": "BuildingTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Building",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Research Lab Expansion"
+ },
+ {
+  "id": 7658100008,
+  "key": "Building_MissionControl",
+  "category": "research",
+  "tree": "Base",
+  "node_class": "BuildingTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Building",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Mission Control"
+ },
+ {
+  "id": 7658100009,
+  "key": "Building_Generator",
+  "category": "research",
+  "tree": "Base",
+  "node_class": "BuildingTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Building",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Backup Power Generator"
+ },
+ {
+  "id": 7658100010,
+  "key": "Building_AstronautTraining",
+  "category": "research",
+  "tree": "Base",
+  "node_class": "BuildingTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Building",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Astronaut Training Facility"
+ },
+ {
+  "id": 7658100011,
+  "key": "Building_LaunchPad_Medium",
+  "category": "research",
+  "tree": "Base",
+  "node_class": "BuildingTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Building",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Medium Launchpad"
+ },
+ {
+  "id": 7658100012,
+  "key": "Building_ResearchLab_Expand_Limit1",
+  "category": "research",
+  "tree": "Base",
+  "node_class": "BuildingLimitTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Building Limit",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "+1 Research Lab Expansion"
+ },
+ {
+  "id": 7658100013,
+  "key": "Building_VAB",
+  "category": "research",
+  "tree": "Base",
+  "node_class": "BuildingTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Building",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Vehicle Assembly Building"
+ },
+ {
+  "id": 7658100014,
+  "key": "Building_PR",
+  "category": "research",
+  "tree": "Base",
+  "node_class": "BuildingTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Building",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "PR Office"
+ },
+ {
+  "id": 7658100015,
+  "key": "Building_MissionControl_Expand",
+  "category": "research",
+  "tree": "Base",
+  "node_class": "BuildingTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Building",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Mission Control Expansion"
+ },
+ {
+  "id": 7658100016,
+  "key": "Building_ResearchLab_Robotics",
+  "category": "research",
+  "tree": "Base",
+  "node_class": "BuildingTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Building",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Robotics Research Lab"
+ },
+ {
+  "id": 7658100017,
+  "key": "Building_ResearchLab_Aeronautics",
+  "category": "research",
+  "tree": "Base",
+  "node_class": "BuildingTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Building",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Aeronautics Research Lab"
+ },
+ {
+  "id": 7658100018,
+  "key": "Building_PR_HallOfFame",
+  "category": "research",
+  "tree": "Base",
+  "node_class": "BuildingTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Building",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Hall of Fame"
+ },
+ {
+  "id": 7658100019,
+  "key": "Building_DiplomacyOffice",
+  "category": "research",
+  "tree": "Base",
+  "node_class": "BuildingTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Building",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Diplomacy Office"
+ },
+ {
+  "id": 7658100020,
+  "key": "Building_PR_VisitorCenter",
+  "category": "research",
+  "tree": "Base",
+  "node_class": "BuildingTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Building",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Visitor Centre"
+ },
+ {
+  "id": 7658100021,
+  "key": "Building_AstronautTraining_Buoyancy",
+  "category": "research",
+  "tree": "Base",
+  "node_class": "BuildingTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Building",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Neutral Buoyancy Lab"
+ },
+ {
+  "id": 7658100022,
+  "key": "Building_LaunchPad_Large",
+  "category": "research",
+  "tree": "Base",
+  "node_class": "BuildingTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Building",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Large Launchpad"
+ },
+ {
+  "id": 7658100023,
+  "key": "Building_MissionControl_Expand_Limit1",
+  "category": "research",
+  "tree": "Base",
+  "node_class": "BuildingLimitTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Building Limit",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "+1 Mission Control Expansion (Era 2)"
+ },
+ {
+  "id": 7658100024,
+  "key": "Building_WaterSoundSuppression",
+  "category": "research",
+  "tree": "Base",
+  "node_class": "BuildingTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Building",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Water Sound Suppression"
+ },
+ {
+  "id": 7658100025,
+  "key": "Building_MobilePlatform",
+  "category": "research",
+  "tree": "Base",
+  "node_class": "BuildingTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Building",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Mobile Launch Platform"
+ },
+ {
+  "id": 7658100026,
+  "key": "Building_PR_ConferenceCenter",
+  "category": "research",
+  "tree": "Base",
+  "node_class": "BuildingTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Building",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Conference Centre"
+ },
+ {
+  "id": 7658100027,
+  "key": "Building_ContractorOffice",
+  "category": "research",
+  "tree": "Base",
+  "node_class": "BuildingTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Building",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Contractors Office"
+ },
+ {
+  "id": 7658100028,
+  "key": "Building_SpacePlane",
+  "category": "research",
+  "tree": "Base",
+  "node_class": "BuildingTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Building",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Space Plane Runway"
+ },
+ {
+  "id": 7658100029,
+  "key": "Building_MissionControl_Expand_Limit2",
+  "category": "research",
+  "tree": "Base",
+  "node_class": "BuildingLimitTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Building Limit",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "+1 Mission Control Expansion (Era 3)"
+ },
+ {
+  "id": 7658100030,
+  "key": "Building_AstronautTraining_Centrifuge",
+  "category": "research",
+  "tree": "Base",
+  "node_class": "BuildingTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Building",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Centrifuge Training"
+ },
+ {
+  "id": 7658100031,
+  "key": "Building_DeepSpaceNetwork",
+  "category": "research",
+  "tree": "Base",
+  "node_class": "BuildingTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Building",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Deep Space Network"
+ },
+ {
+  "id": 7658100032,
+  "key": "Building_AstronautTraining_Docking",
+  "category": "research",
+  "tree": "Base",
+  "node_class": "BuildingTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Building",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Docking Training Facility"
+ },
+ {
+  "id": 7658100033,
+  "key": "milestone_sounding_rocket",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "MissionTechNodeData",
+  "era": 0,
+  "era_reward": false,
+  "node_category": "Mission",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Test Launch"
+ },
+ {
+  "id": 7658100034,
+  "key": "milestone_artificial_satellite",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "MissionTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Mission",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Artificial Satellite"
+ },
+ {
+  "id": 7658100035,
+  "key": "Payload_Explorer",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "USA"
+  ],
+  "name": "Explorer"
+ },
+ {
+  "id": 7658100036,
+  "key": "Payload_Sputnik",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "Russia"
+  ],
+  "name": "Sputnik"
+ },
+ {
+  "id": 7658100037,
+  "key": "Payload_Esro",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "Europe"
+  ],
+  "name": "ESRO-2B"
+ },
+ {
+  "id": 7658100038,
+  "key": "Payload_Ohsumi",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "Japan"
+  ],
+  "name": "Ohsumi"
+ },
+ {
+  "id": 7658100039,
+  "key": "Payload_DongFangHong",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "China"
+  ],
+  "name": "Dong Fang Hong I"
+ },
+ {
+  "id": 7658100040,
+  "key": "milestone_lunar_orbit",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "MissionTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Mission",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Lunar Orbit"
+ },
+ {
+  "id": 7658100041,
+  "key": "milestone_animal_in_space",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "MissionTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Mission",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Animal In Space"
+ },
+ {
+  "id": 7658100042,
+  "key": "Payload_Pioneer",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "USA",
+   "Europe"
+  ],
+  "name": "Pioneer"
+ },
+ {
+  "id": 7658100043,
+  "key": "Payload_Luna",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "Russia",
+   "China"
+  ],
+  "name": "Luna"
+ },
+ {
+  "id": 7658100044,
+  "key": "Payload_Hiten",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "Japan"
+  ],
+  "name": "Hiten"
+ },
+ {
+  "id": 7658100045,
+  "key": "Payload_Sputnik_2",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "Russia",
+   "China"
+  ],
+  "name": "Sputnik 2"
+ },
+ {
+  "id": 7658100046,
+  "key": "Payload_Animal",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "USA",
+   "Europe",
+   "Japan"
+  ],
+  "name": "Eden"
+ },
+ {
+  "id": 7658100047,
+  "key": "milestone_satellite_imagery",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "MissionTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Mission",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Satellite Imaging"
+ },
+ {
+  "id": 7658100048,
+  "key": "milestone_human_in_space",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "MissionTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Mission",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Human In Space"
+ },
+ {
+  "id": 7658100049,
+  "key": "Payload_Observation",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "USA",
+   "Europe"
+  ],
+  "name": "GOES"
+ },
+ {
+  "id": 7658100050,
+  "key": "Payload_GPS",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "Russia",
+   "China"
+  ],
+  "name": "Observation Satellite"
+ },
+ {
+  "id": 7658100051,
+  "key": "Payload_Akari",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "Japan"
+  ],
+  "name": "Akari"
+ },
+ {
+  "id": 7658100052,
+  "key": "Payload_Mercury",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "USA",
+   "Europe",
+   "Japan"
+  ],
+  "name": "Mercury"
+ },
+ {
+  "id": 7658100053,
+  "key": "Payload_Vostok",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "Russia"
+  ],
+  "name": "Vostok"
+ },
+ {
+  "id": 7658100054,
+  "key": "Payload_Shuguang1",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "China"
+  ],
+  "name": "Shuguang-1"
+ },
+ {
+  "id": 7658100055,
+  "key": "milestone_venus_impactor",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "MissionTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Mission",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Venus Impacter"
+ },
+ {
+  "id": 7658100056,
+  "key": "milestone_martian_impactor",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "MissionTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Mission",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Mars Flyby"
+ },
+ {
+  "id": 7658100057,
+  "key": "milestone_multicrew_orbit",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "MissionTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Mission",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Multicrew Orbit"
+ },
+ {
+  "id": 7658100058,
+  "key": "Payload_Mariner1",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "USA",
+   "Europe"
+  ],
+  "name": "Mariner 1"
+ },
+ {
+  "id": 7658100059,
+  "key": "Payload_Kosmos",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "Russia"
+  ],
+  "name": "Kosmos 419"
+ },
+ {
+  "id": 7658100060,
+  "key": "Payload_Sakigake",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "Japan"
+  ],
+  "name": "Sakigake"
+ },
+ {
+  "id": 7658100061,
+  "key": "Payload_Yinghuo1_1",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "China"
+  ],
+  "name": "Yinghuo-1"
+ },
+ {
+  "id": 7658100062,
+  "key": "Payload_Gemini",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "USA",
+   "Europe",
+   "Japan"
+  ],
+  "name": "Gemini"
+ },
+ {
+  "id": 7658100063,
+  "key": "Payload_Voskhod",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "Russia"
+  ],
+  "name": "Voskhod"
+ },
+ {
+  "id": 7658100064,
+  "key": "Payload_Shuguang2",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "China"
+  ],
+  "name": "Shuguang-2"
+ },
+ {
+  "id": 7658100065,
+  "key": "milestone_venus_orbit",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "MissionTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Mission",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Venus Orbit"
+ },
+ {
+  "id": 7658100066,
+  "key": "milestone_mercury_orbit",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "MissionTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Mission",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Mercury Orbit"
+ },
+ {
+  "id": 7658100067,
+  "key": "milestone_mars_orbit",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "MissionTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Mission",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Mars Orbit"
+ },
+ {
+  "id": 7658100068,
+  "key": "milestone_multicrew_eva",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "MissionTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Mission",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Orbital EVA"
+ },
+ {
+  "id": 7658100069,
+  "key": "Payload_Mariner8",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "USA",
+   "Europe"
+  ],
+  "name": "Mariner 8"
+ },
+ {
+  "id": 7658100070,
+  "key": "Payload_Venera",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "Russia"
+  ],
+  "name": "Venera 9"
+ },
+ {
+  "id": 7658100071,
+  "key": "Payload_Nozomi",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "Japan"
+  ],
+  "name": "Nozomi"
+ },
+ {
+  "id": 7658100072,
+  "key": "Payload_Yinghuo1_2",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "China"
+  ],
+  "name": "Yinghuo-2"
+ },
+ {
+  "id": 7658100073,
+  "key": "milestone_commercial_satellite",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "MissionTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Mission",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Commercial Satellite"
+ },
+ {
+  "id": 7658100074,
+  "key": "milestone_human_moon",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "MissionTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Mission",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Crewed Moon Landing"
+ },
+ {
+  "id": 7658100075,
+  "key": "Payload_Generic",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "USA",
+   "Russia",
+   "China"
+  ],
+  "name": "Commsat"
+ },
+ {
+  "id": 7658100076,
+  "key": "Payload_SPOT",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "Europe"
+  ],
+  "name": "SPOT"
+ },
+ {
+  "id": 7658100077,
+  "key": "Payload_Himawari",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "Japan"
+  ],
+  "name": "Himawari"
+ },
+ {
+  "id": 7658100078,
+  "key": "Payload_Apollo",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "USA",
+   "Europe",
+   "Japan"
+  ],
+  "name": "Apollo"
+ },
+ {
+  "id": 7658100079,
+  "key": "Payload_Soyuz",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "Russia"
+  ],
+  "name": "Soyuz"
+ },
+ {
+  "id": 7658100080,
+  "key": "Payload_Shenzhou",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "China"
+  ],
+  "name": "Shenzhou (Era 2)"
+ },
+ {
+  "id": 7658100081,
+  "key": "milestone_flyby_saturn",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "MissionTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Mission",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Saturn Flyby"
+ },
+ {
+  "id": 7658100082,
+  "key": "milestone_flyby_jupiter",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "MissionTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Mission",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Jupiter Flyby"
+ },
+ {
+  "id": 7658100083,
+  "key": "milestone_mars_lander",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "MissionTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Mission",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Mars Lander"
+ },
+ {
+  "id": 7658100084,
+  "key": "milestone_space_station",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "MissionTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Mission",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Space Station"
+ },
+ {
+  "id": 7658100085,
+  "key": "Payload_Voyager",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "USA",
+   "Europe",
+   "Japan"
+  ],
+  "name": "Voyager"
+ },
+ {
+  "id": 7658100086,
+  "key": "Payload_Tsiolkovsky_Basic",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "Russia",
+   "China"
+  ],
+  "name": "Tsiolkovsky I"
+ },
+ {
+  "id": 7658100087,
+  "key": "Payload_Viking",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "USA"
+  ],
+  "name": "Viking (Payload)"
+ },
+ {
+  "id": 7658100088,
+  "key": "Payload_Generic_Mars_Lander",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Vesta"
+ },
+ {
+  "id": 7658100089,
+  "key": "Payload_Skylab",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "USA",
+   "Europe",
+   "Japan"
+  ],
+  "name": "Skylab"
+ },
+ {
+  "id": 7658100090,
+  "key": "Payload_Salyut",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "Russia"
+  ],
+  "name": "Salyut"
+ },
+ {
+  "id": 7658100091,
+  "key": "Payload_Tiangong1",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "China"
+  ],
+  "name": "Tiangong-1"
+ },
+ {
+  "id": 7658100092,
+  "key": "milestone_flyby_neptune",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "MissionTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Mission",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Neptune Flyby"
+ },
+ {
+  "id": 7658100093,
+  "key": "milestone_flyby_uranus",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "MissionTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Mission",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Uranus Flyby"
+ },
+ {
+  "id": 7658100094,
+  "key": "milestone_modular_space_station_01",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "MissionTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Mission",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Modular Space Station I"
+ },
+ {
+  "id": 7658100095,
+  "key": "Payload_ISS_Stage_01",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "USA",
+   "Europe",
+   "Japan"
+  ],
+  "name": "Zarya"
+ },
+ {
+  "id": 7658100096,
+  "key": "Payload_Mir_Stage_01",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "Russia"
+  ],
+  "name": "DOS-7"
+ },
+ {
+  "id": 7658100097,
+  "key": "Payload_HP_Stage_01",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "China"
+  ],
+  "name": "Tianhe"
+ },
+ {
+  "id": 7658100098,
+  "key": "milestone_xray_telescope",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "MissionTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Mission",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "X-ray Telescope"
+ },
+ {
+  "id": 7658100099,
+  "key": "milestone_the_grand_tour",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "MissionTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Mission",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "The Grand Tour"
+ },
+ {
+  "id": 7658100100,
+  "key": "milestone_jupiter_orbiter",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "MissionTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Mission",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Jupiter Orbiter"
+ },
+ {
+  "id": 7658100101,
+  "key": "milestone_saturn_orbiter",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "MissionTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Mission",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Saturn Orbiter"
+ },
+ {
+  "id": 7658100102,
+  "key": "milestone_modular_space_station_02",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "MissionTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Mission",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Modular Space Station II"
+ },
+ {
+  "id": 7658100103,
+  "key": "Payload_Xray",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "USA",
+   "Japan"
+  ],
+  "name": "Chandra"
+ },
+ {
+  "id": 7658100104,
+  "key": "Payload_Newton",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "Russia",
+   "Europe"
+  ],
+  "name": "XMM-Newton"
+ },
+ {
+  "id": 7658100105,
+  "key": "Payload_HXMT",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "China"
+  ],
+  "name": "Insight"
+ },
+ {
+  "id": 7658100106,
+  "key": "Payload_Galileo",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "USA",
+   "Europe",
+   "Japan"
+  ],
+  "name": "Galileo"
+ },
+ {
+  "id": 7658100107,
+  "key": "Payload_Tsiolkovsky_Advanced",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "Russia",
+   "China"
+  ],
+  "name": "Tsiolkovsky II"
+ },
+ {
+  "id": 7658100108,
+  "key": "Payload_ISS_Stage_02",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "USA",
+   "Europe",
+   "Japan"
+  ],
+  "name": "Unity"
+ },
+ {
+  "id": 7658100109,
+  "key": "Payload_Mir_Stage_02",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "Russia"
+  ],
+  "name": "Kvant-1"
+ },
+ {
+  "id": 7658100110,
+  "key": "Payload_HP_Stage_02",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "China"
+  ],
+  "name": "Tianzhou-1"
+ },
+ {
+  "id": 7658100111,
+  "key": "milestone_space_telescope",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "MissionTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Mission",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Space Telescope"
+ },
+ {
+  "id": 7658100112,
+  "key": "milestone_philae_landing",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "MissionTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Mission",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Philae Landing"
+ },
+ {
+  "id": 7658100113,
+  "key": "milestone_martian_prep_sample_retrieval",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "MissionTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Mission",
+  "agencies": [],
+  "name": "Mars Prep: Sample Retrieval"
+ },
+ {
+  "id": 7658100114,
+  "key": "milestone_martian_prep_perseverance",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "MissionTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Mission",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Mars Prep: Mars Exploration"
+ },
+ {
+  "id": 7658100115,
+  "key": "milestone_martian_prep_uncrewed_rover",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "MissionTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Mission",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Mars Prep: Robotic Rover"
+ },
+ {
+  "id": 7658100116,
+  "key": "milestone_modular_space_station_03",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "MissionTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Mission",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Modular Space Station III"
+ },
+ {
+  "id": 7658100117,
+  "key": "Payload_Hubble",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "USA",
+   "Japan"
+  ],
+  "name": "Hubble"
+ },
+ {
+  "id": 7658100118,
+  "key": "Payload_Granat",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "Russia",
+   "Europe"
+  ],
+  "name": "GRANAT"
+ },
+ {
+  "id": 7658100119,
+  "key": "Payload_Xuntian",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "China"
+  ],
+  "name": "Xuntian"
+ },
+ {
+  "id": 7658100120,
+  "key": "Payload_Rosetta_01",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Rosetta"
+ },
+ {
+  "id": 7658100121,
+  "key": "Payload_MarsSample_2",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [],
+  "name": "Mars Sample Retrieval Lander"
+ },
+ {
+  "id": 7658100122,
+  "key": "Payload_Perseverance",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Perseverance"
+ },
+ {
+  "id": 7658100123,
+  "key": "Payload_Curiosity",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "USA",
+   "Japan"
+  ],
+  "name": "Curiosity"
+ },
+ {
+  "id": 7658100124,
+  "key": "Payload_Exomars",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "Europe"
+  ],
+  "name": "Rosalind Franklin"
+ },
+ {
+  "id": 7658100125,
+  "key": "Payload_Marsokhod",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "Russia"
+  ],
+  "name": "Marsokhod"
+ },
+ {
+  "id": 7658100126,
+  "key": "Payload_Huoxing",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "China"
+  ],
+  "name": "Tianwen-1"
+ },
+ {
+  "id": 7658100127,
+  "key": "Payload_ISS_Stage_03",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "USA",
+   "Europe",
+   "Japan"
+  ],
+  "name": "Zvezda"
+ },
+ {
+  "id": 7658100128,
+  "key": "Payload_Mir_Stage_03",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "Russia"
+  ],
+  "name": "Spektr"
+ },
+ {
+  "id": 7658100129,
+  "key": "Payload_HP_Stage_03",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "China"
+  ],
+  "name": "Shenzhou (Era 4)"
+ },
+ {
+  "id": 7658100130,
+  "key": "milestone_martian_prep_rover",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "MissionTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Mission",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Mars Prep: Crewed Rover"
+ },
+ {
+  "id": 7658100131,
+  "key": "milestone_martian_prep_ground_hab",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "MissionTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Mission",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Mars Prep: Ground Hab"
+ },
+ {
+  "id": 7658100132,
+  "key": "Payload_MarsRover_2",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Mars Crewed Rover"
+ },
+ {
+  "id": 7658100133,
+  "key": "Payload_MarsHab_2",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Mars Surface Habitat"
+ },
+ {
+  "id": 7658100134,
+  "key": "milestone_mars_mission_lander",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "MissionTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Mission",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Mars Requirement: Send Lander"
+ },
+ {
+  "id": 7658100135,
+  "key": "milestone_mars_mission_engine",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "MissionTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Mission",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Mars Requirement: Engine & Habitat"
+ },
+ {
+  "id": 7658100136,
+  "key": "Payload_Orion_Lander_2",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Mars Crewed Lander"
+ },
+ {
+  "id": 7658100137,
+  "key": "Payload_Orion_Engine_2",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Mars Engine & Hab Module"
+ },
+ {
+  "id": 7658100138,
+  "key": "milestone_mars_final_mission",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "MissionTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Mission",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Crewed Mars Landing"
+ },
+ {
+  "id": 7658100139,
+  "key": "Payload_Orion",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "USA",
+   "Japan"
+  ],
+  "name": "Orion"
+ },
+ {
+  "id": 7658100140,
+  "key": "Payload_ACTS",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "Europe"
+  ],
+  "name": "ACTS"
+ },
+ {
+  "id": 7658100141,
+  "key": "Payload_Orel",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "Russia"
+  ],
+  "name": "Orel"
+ },
+ {
+  "id": 7658100142,
+  "key": "Payload_CNSA",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "PayloadTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Payload",
+  "agencies": [
+   "China"
+  ],
+  "name": "Huoxing-1"
+ },
+ {
+  "id": 7658100143,
+  "key": "Rocket_SoundingRocket",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "VehicleTechNodeData",
+  "era": 0,
+  "era_reward": false,
+  "node_category": "Vehicle",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Sounding Rocket"
+ },
+ {
+  "id": 7658100144,
+  "key": "Booster_Vanguard",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "BoosterTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Booster",
+  "agencies": [
+   "USA"
+  ],
+  "name": "Vanguard"
+ },
+ {
+  "id": 7658100145,
+  "key": "Booster_SputnikOne",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "BoosterTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Booster",
+  "agencies": [
+   "Russia"
+  ],
+  "name": "R-7 Sputnik (Booster)"
+ },
+ {
+  "id": 7658100146,
+  "key": "Booster_Emeraude",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "BoosterTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Booster",
+  "agencies": [
+   "Europe"
+  ],
+  "name": "Emeraude"
+ },
+ {
+  "id": 7658100147,
+  "key": "Booster_Lambda4S",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "BoosterTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Booster",
+  "agencies": [
+   "Japan"
+  ],
+  "name": "Lambda 4S (Booster)"
+ },
+ {
+  "id": 7658100148,
+  "key": "Booster_LongMarch1",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "BoosterTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Booster",
+  "agencies": [
+   "China"
+  ],
+  "name": "Long March 1 (Booster)"
+ },
+ {
+  "id": 7658100149,
+  "key": "Upper_Viking",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "USA"
+  ],
+  "name": "Viking (Upper Stage)"
+ },
+ {
+  "id": 7658100150,
+  "key": "Upper_Topaze",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "Europe"
+  ],
+  "name": "Topaze"
+ },
+ {
+  "id": 7658100151,
+  "key": "Upper_SputnikOne",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "Russia"
+  ],
+  "name": "R-7 Sputnik (Upper Stage)"
+ },
+ {
+  "id": 7658100152,
+  "key": "Upper_Lambda4S",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "Japan"
+  ],
+  "name": "Lambda 4S (Upper Stage)"
+ },
+ {
+  "id": 7658100153,
+  "key": "Upper_LongMarch1",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "China"
+  ],
+  "name": "Long March 1 (Upper Stage)"
+ },
+ {
+  "id": 7658100154,
+  "key": "Booster_Algol",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "BoosterTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Booster",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Algol"
+ },
+ {
+  "id": 7658100155,
+  "key": "Booster_Jupiter",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "BoosterTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Booster",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China"
+  ],
+  "name": "Jupiter (Booster)"
+ },
+ {
+  "id": 7658100156,
+  "key": "Booster_Nippon1",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "BoosterTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Booster",
+  "agencies": [
+   "Japan"
+  ],
+  "name": "Nippon-I (Booster)"
+ },
+ {
+  "id": 7658100157,
+  "key": "Upper_Able",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Able"
+ },
+ {
+  "id": 7658100158,
+  "key": "Upper_Jupiter",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China"
+  ],
+  "name": "Jupiter (Upper Stage)"
+ },
+ {
+  "id": 7658100159,
+  "key": "Upper_Nippon1",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "Japan"
+  ],
+  "name": "Nippon-I (Upper Stage)"
+ },
+ {
+  "id": 7658100160,
+  "key": "Upper_ScoutA",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Scout"
+ },
+ {
+  "id": 7658100161,
+  "key": "Booster_Ariane1",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "BoosterTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Booster",
+  "agencies": [
+   "Europe"
+  ],
+  "name": "Ariane 1 (Booster)"
+ },
+ {
+  "id": 7658100162,
+  "key": "Booster_Tsyklon",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "BoosterTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Booster",
+  "agencies": [
+   "Russia",
+   "China"
+  ],
+  "name": "Tsyklon"
+ },
+ {
+  "id": 7658100163,
+  "key": "Booster_Redstone",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "BoosterTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Booster",
+  "agencies": [
+   "USA"
+  ],
+  "name": "Redstone (Booster)"
+ },
+ {
+  "id": 7658100164,
+  "key": "Booster_Mu3",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "BoosterTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Booster",
+  "agencies": [
+   "Japan"
+  ],
+  "name": "Mu-3 (Booster)"
+ },
+ {
+  "id": 7658100165,
+  "key": "Booster_R7",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "BoosterTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Booster",
+  "agencies": [
+   "Russia"
+  ],
+  "name": "R-7 Vostok (Booster)"
+ },
+ {
+  "id": 7658100166,
+  "key": "Booster_Atlas",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "BoosterTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Booster",
+  "agencies": [
+   "USA",
+   "Europe",
+   "Japan"
+  ],
+  "name": "Atlas"
+ },
+ {
+  "id": 7658100167,
+  "key": "Booster_LongMarch2",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "BoosterTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Booster",
+  "agencies": [
+   "China"
+  ],
+  "name": "Long March 2 (Booster)"
+ },
+ {
+  "id": 7658100168,
+  "key": "Booster_Delta2",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "BoosterTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Booster",
+  "agencies": [
+   "USA",
+   "Russia",
+   "China"
+  ],
+  "name": "Delta (Booster)"
+ },
+ {
+  "id": 7658100169,
+  "key": "Booster_Nippon2",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "BoosterTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Booster",
+  "agencies": [
+   "Japan"
+  ],
+  "name": "Nippon-II (Booster)"
+ },
+ {
+  "id": 7658100170,
+  "key": "Booster_Vega",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "BoosterTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Booster",
+  "agencies": [
+   "Europe"
+  ],
+  "name": "Vega (Booster)"
+ },
+ {
+  "id": 7658100171,
+  "key": "Upper_Delta2",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "USA",
+   "Russia",
+   "China"
+  ],
+  "name": "Delta (Upper Stage)"
+ },
+ {
+  "id": 7658100172,
+  "key": "Upper_Nippon2",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "Japan"
+  ],
+  "name": "Nippon-II (Upper Stage)"
+ },
+ {
+  "id": 7658100173,
+  "key": "Upper_Vega",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "Europe"
+  ],
+  "name": "Vega (Upper Stage)"
+ },
+ {
+  "id": 7658100174,
+  "key": "Upper_Vostok",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "Russia"
+  ],
+  "name": "R-7 Vostok (Upper Stage)"
+ },
+ {
+  "id": 7658100175,
+  "key": "Upper_Ariane1",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "Europe"
+  ],
+  "name": "Ariane 1 (Upper Stage)"
+ },
+ {
+  "id": 7658100176,
+  "key": "Upper_Redstone",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "USA"
+  ],
+  "name": "Redstone (Upper Stage)"
+ },
+ {
+  "id": 7658100177,
+  "key": "Upper_Mu3",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "Japan"
+  ],
+  "name": "Mu-3 (Upper Stage)"
+ },
+ {
+  "id": 7658100178,
+  "key": "Upper_LongMarch2",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "China"
+  ],
+  "name": "Long March 2 (Upper Stage)"
+ },
+ {
+  "id": 7658100179,
+  "key": "Upper_Star37",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 1,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Star-37"
+ },
+ {
+  "id": 7658100180,
+  "key": "Mechanic_Contractors",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "MechanicTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Unlock",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Contractors"
+ },
+ {
+  "id": 7658100181,
+  "key": "Sup_Generic_Small_2",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "SupplementaryTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Supplementary",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "2x SRBs"
+ },
+ {
+  "id": 7658100182,
+  "key": "Booster_Soyuz",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "BoosterTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Booster",
+  "agencies": [
+   "Russia",
+   "China"
+  ],
+  "name": "R-7 Soyuz (Booster)"
+ },
+ {
+  "id": 7658100183,
+  "key": "Booster_Titan2",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "BoosterTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Booster",
+  "agencies": [
+   "USA",
+   "Europe",
+   "Japan"
+  ],
+  "name": "Titan II (Booster)"
+ },
+ {
+  "id": 7658100184,
+  "key": "Upper_Soyuz",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "Russia",
+   "China"
+  ],
+  "name": "R-7 Soyuz (Upper Stage)"
+ },
+ {
+  "id": 7658100185,
+  "key": "Upper_Titan2",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "USA",
+   "Europe",
+   "Japan"
+  ],
+  "name": "Titan II (Upper Stage)"
+ },
+ {
+  "id": 7658100186,
+  "key": "Upper_DeltaK",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Delta K"
+ },
+ {
+  "id": 7658100187,
+  "key": "Upper_Agena",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "USA",
+   "Europe",
+   "Japan"
+  ],
+  "name": "Agena"
+ },
+ {
+  "id": 7658100188,
+  "key": "Upper_BlokD",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "Russia",
+   "China"
+  ],
+  "name": "Blok D"
+ },
+ {
+  "id": 7658100189,
+  "key": "Upper_Centaur_C",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Centaur-C"
+ },
+ {
+  "id": 7658100190,
+  "key": "Sup_Generic_Small_4",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "SupplementaryTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Supplementary",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "4x SRBs"
+ },
+ {
+  "id": 7658100191,
+  "key": "Booster_Saturn1",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "BoosterTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Booster",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "Japan"
+  ],
+  "name": "Saturn IB"
+ },
+ {
+  "id": 7658100192,
+  "key": "Sup_LongMarch2",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "SupplementaryTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Supplementary",
+  "agencies": [
+   "China"
+  ],
+  "name": "4x Long March 2"
+ },
+ {
+  "id": 7658100193,
+  "key": "Booster_Saturn5",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "BoosterTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Booster",
+  "agencies": [
+   "USA",
+   "Europe",
+   "Japan"
+  ],
+  "name": "Saturn V"
+ },
+ {
+  "id": 7658100194,
+  "key": "Booster_N1",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "BoosterTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Booster",
+  "agencies": [
+   "Russia",
+   "China"
+  ],
+  "name": "N1"
+ },
+ {
+  "id": 7658100195,
+  "key": "Upper_Saturn4B",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "Japan"
+  ],
+  "name": "Saturn IVB"
+ },
+ {
+  "id": 7658100196,
+  "key": "Upper_LongMarch2F",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "China"
+  ],
+  "name": "Long March 2F"
+ },
+ {
+  "id": 7658100197,
+  "key": "Upper_Saturn2",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "USA",
+   "Europe",
+   "Japan"
+  ],
+  "name": "Saturn II"
+ },
+ {
+  "id": 7658100198,
+  "key": "Upper_L3",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 2,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "Russia",
+   "China"
+  ],
+  "name": "L3"
+ },
+ {
+  "id": 7658100199,
+  "key": "Sup_Generic_Small_6",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "SupplementaryTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Supplementary",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "6x SRBs"
+ },
+ {
+  "id": 7658100200,
+  "key": "Booster_Delta4",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "BoosterTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Booster",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Delta IV"
+ },
+ {
+  "id": 7658100201,
+  "key": "Booster_Titan3",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "BoosterTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Booster",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Titan III"
+ },
+ {
+  "id": 7658100202,
+  "key": "Booster_Proton",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "BoosterTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Booster",
+  "agencies": [
+   "Russia",
+   "China"
+  ],
+  "name": "Proton"
+ },
+ {
+  "id": 7658100203,
+  "key": "Booster_Atlas3",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "BoosterTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Booster",
+  "agencies": [
+   "USA",
+   "Europe"
+  ],
+  "name": "Atlas 3"
+ },
+ {
+  "id": 7658100204,
+  "key": "Booster_Mu5",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "BoosterTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Booster",
+  "agencies": [
+   "Japan"
+  ],
+  "name": "Mu-5 (Booster)"
+ },
+ {
+  "id": 7658100205,
+  "key": "Upper_BlokDM",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "Russia"
+  ],
+  "name": "Blok DM-2"
+ },
+ {
+  "id": 7658100206,
+  "key": "Upper_Mu5",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "Japan"
+  ],
+  "name": "Mu-5 (Upper Stage)"
+ },
+ {
+  "id": 7658100207,
+  "key": "Upper_LongMarch3",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "China"
+  ],
+  "name": "Long March 3"
+ },
+ {
+  "id": 7658100208,
+  "key": "Upper_Athena",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "USA",
+   "Europe"
+  ],
+  "name": "Athena"
+ },
+ {
+  "id": 7658100209,
+  "key": "Upper_Centaur_D",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Centaur-D"
+ },
+ {
+  "id": 7658100210,
+  "key": "Sup_Generic_Small_8",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "SupplementaryTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Supplementary",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "8x SRBs"
+ },
+ {
+  "id": 7658100211,
+  "key": "Sup_Delta4",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "SupplementaryTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Supplementary",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "2x Delta"
+ },
+ {
+  "id": 7658100212,
+  "key": "Sup_Titan3",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "SupplementaryTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Supplementary",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "2x Titan III-C"
+ },
+ {
+  "id": 7658100213,
+  "key": "Upper_Falcon9",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Wyvern (Upper Stage)"
+ },
+ {
+  "id": 7658100214,
+  "key": "Rocket_Shuttle",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "VehicleTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Vehicle",
+  "agencies": [
+   "USA"
+  ],
+  "name": "Space Shuttle"
+ },
+ {
+  "id": 7658100215,
+  "key": "Rocket_Energia",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "VehicleTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Vehicle",
+  "agencies": [
+   "Russia"
+  ],
+  "name": "Buran"
+ },
+ {
+  "id": 7658100216,
+  "key": "Rocket_Hermes",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "VehicleTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Vehicle",
+  "agencies": [
+   "Europe"
+  ],
+  "name": "Hermes"
+ },
+ {
+  "id": 7658100217,
+  "key": "Rocket_HopeX",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "VehicleTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Vehicle",
+  "agencies": [
+   "Japan"
+  ],
+  "name": "HOPE"
+ },
+ {
+  "id": 7658100218,
+  "key": "Rocket_DivineDragon",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "VehicleTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Vehicle",
+  "agencies": [
+   "China"
+  ],
+  "name": "Divine Dragon"
+ },
+ {
+  "id": 7658100219,
+  "key": "Booster_Zenit",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "BoosterTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Booster",
+  "agencies": [
+   "Russia"
+  ],
+  "name": "Zenit RD-171"
+ },
+ {
+  "id": 7658100220,
+  "key": "Booster_Ariane5",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "BoosterTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Booster",
+  "agencies": [
+   "Europe"
+  ],
+  "name": "Ariane 5 (Booster)"
+ },
+ {
+  "id": 7658100221,
+  "key": "Booster_CCB",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "BoosterTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Booster",
+  "agencies": [
+   "USA"
+  ],
+  "name": "Atlas 5"
+ },
+ {
+  "id": 7658100222,
+  "key": "Booster_HIIA",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "BoosterTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Booster",
+  "agencies": [
+   "Japan"
+  ],
+  "name": "H-IIA (Booster)"
+ },
+ {
+  "id": 7658100223,
+  "key": "Booster_LongMarch5",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "BoosterTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Booster",
+  "agencies": [
+   "China"
+  ],
+  "name": "Long March 5 (Booster)"
+ },
+ {
+  "id": 7658100224,
+  "key": "Booster_Titan4",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "BoosterTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Booster",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Titan IV"
+ },
+ {
+  "id": 7658100225,
+  "key": "Upper_Zenit",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "Russia"
+  ],
+  "name": "Zenit RD-8"
+ },
+ {
+  "id": 7658100226,
+  "key": "Upper_Ariane5",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "Europe"
+  ],
+  "name": "Ariane 5 (Upper Stage)"
+ },
+ {
+  "id": 7658100227,
+  "key": "Upper_HIIA",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "Japan"
+  ],
+  "name": "H-IIA (Upper Stage)"
+ },
+ {
+  "id": 7658100228,
+  "key": "Upper_LongMarch5",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "China"
+  ],
+  "name": "Long March 5 (Upper Stage)"
+ },
+ {
+  "id": 7658100229,
+  "key": "Upper_Centaur_G",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Centaur-G"
+ },
+ {
+  "id": 7658100230,
+  "key": "Upper_DCSS",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 3,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "DCSS"
+ },
+ {
+  "id": 7658100231,
+  "key": "Sup_Ariane5",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "SupplementaryTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Supplementary",
+  "agencies": [
+   "Europe"
+  ],
+  "name": "2x Ariane 5"
+ },
+ {
+  "id": 7658100232,
+  "key": "Sup_Atlas5",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "SupplementaryTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Supplementary",
+  "agencies": [
+   "USA"
+  ],
+  "name": "2x Atlas 5"
+ },
+ {
+  "id": 7658100233,
+  "key": "Sup_HIIA",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "SupplementaryTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Supplementary",
+  "agencies": [
+   "Japan"
+  ],
+  "name": "2x H-IIA"
+ },
+ {
+  "id": 7658100234,
+  "key": "Sup_LongMarch5",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "SupplementaryTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Supplementary",
+  "agencies": [
+   "China"
+  ],
+  "name": "4x Long March 5"
+ },
+ {
+  "id": 7658100235,
+  "key": "Booster_SLS1",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "BoosterTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Booster",
+  "agencies": [
+   "USA",
+   "Europe",
+   "Japan"
+  ],
+  "name": "SLS Block 1 (Booster)"
+ },
+ {
+  "id": 7658100236,
+  "key": "Booster_Yenisei1",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "BoosterTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Booster",
+  "agencies": [
+   "Russia"
+  ],
+  "name": "Yenisei 1 (Booster)"
+ },
+ {
+  "id": 7658100237,
+  "key": "Booster_LongMarch9_1",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "BoosterTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Booster",
+  "agencies": [
+   "China"
+  ],
+  "name": "Long March 9A (Booster)"
+ },
+ {
+  "id": 7658100238,
+  "key": "Booster_Ariane6",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "BoosterTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Booster",
+  "agencies": [
+   "Europe"
+  ],
+  "name": "Ariane 6 (Booster)"
+ },
+ {
+  "id": 7658100239,
+  "key": "Upper_SLS1",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "USA",
+   "Europe",
+   "Japan"
+  ],
+  "name": "SLS Block 1 (Upper Stage)"
+ },
+ {
+  "id": 7658100240,
+  "key": "Upper_Yenisei1",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "Russia"
+  ],
+  "name": "Yenisei 1 (Upper Stage)"
+ },
+ {
+  "id": 7658100241,
+  "key": "Upper_LongMarch9_1",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "China"
+  ],
+  "name": "Long March 9B"
+ },
+ {
+  "id": 7658100242,
+  "key": "Upper_SLS2",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "USA",
+   "Europe",
+   "Japan"
+  ],
+  "name": "SLS Block 1B"
+ },
+ {
+  "id": 7658100243,
+  "key": "Upper_Yenisei2",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "Russia"
+  ],
+  "name": "Yenisei 2"
+ },
+ {
+  "id": 7658100244,
+  "key": "Upper_LongMarch9_2",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "China"
+  ],
+  "name": "Long March 9A (Upper Stage)"
+ },
+ {
+  "id": 7658100245,
+  "key": "Upper_Ariane6",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "Europe"
+  ],
+  "name": "Ariane 6 (Upper Stage)"
+ },
+ {
+  "id": 7658100246,
+  "key": "Sup_Ariane6_2",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "SupplementaryTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Supplementary",
+  "agencies": [
+   "Europe"
+  ],
+  "name": "2x Ariane 6"
+ },
+ {
+  "id": 7658100247,
+  "key": "Sup_Ariane6_4",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "SupplementaryTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Supplementary",
+  "agencies": [
+   "Europe"
+  ],
+  "name": "4x Ariane 6"
+ },
+ {
+  "id": 7658100248,
+  "key": "Sup_SLS",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "SupplementaryTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Supplementary",
+  "agencies": [
+   "USA",
+   "Europe",
+   "Japan"
+  ],
+  "name": "2x SLS"
+ },
+ {
+  "id": 7658100249,
+  "key": "Sup_Yenisei",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "SupplementaryTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Supplementary",
+  "agencies": [
+   "Russia"
+  ],
+  "name": "6x Yenisei"
+ },
+ {
+  "id": 7658100250,
+  "key": "Sup_LongMarch9",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "SupplementaryTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Supplementary",
+  "agencies": [
+   "China"
+  ],
+  "name": "4x Long March 9"
+ },
+ {
+  "id": 7658100251,
+  "key": "Booster_SLS2",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "BoosterTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Booster",
+  "agencies": [
+   "USA",
+   "Europe",
+   "Japan"
+  ],
+  "name": "SLS Block 2 (Booster)"
+ },
+ {
+  "id": 7658100252,
+  "key": "Booster_Yenisei2",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "BoosterTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Booster",
+  "agencies": [
+   "Russia"
+  ],
+  "name": "Yenisei-Don (Booster)"
+ },
+ {
+  "id": 7658100253,
+  "key": "Booster_LongMarch9_2",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "BoosterTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Booster",
+  "agencies": [
+   "China"
+  ],
+  "name": "Long March 9 (Booster)"
+ },
+ {
+  "id": 7658100254,
+  "key": "Upper_SLS3",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "USA",
+   "Europe",
+   "Japan"
+  ],
+  "name": "SLS Block 2 (Upper Stage)"
+ },
+ {
+  "id": 7658100255,
+  "key": "Upper_Yenisei3",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "Russia"
+  ],
+  "name": "Yenisei-Don (Upper Stage)"
+ },
+ {
+  "id": 7658100256,
+  "key": "Upper_LongMarch9_3",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "UpperTechNodeData",
+  "era": 4,
+  "era_reward": false,
+  "node_category": "Upper Stage",
+  "agencies": [
+   "China"
+  ],
+  "name": "Long March 9 (Upper Stage)"
+ },
+ {
+  "id": 7658100257,
+  "key": "Base_Era1_BaseObstructionBoost",
+  "category": "research",
+  "tree": "Base",
+  "node_class": "EraReward:Boost",
+  "era": 1,
+  "era_reward": true,
+  "node_category": "Era Reward",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Advanced Demolition"
+ },
+ {
+  "id": 7658100258,
+  "key": "Building_Library",
+  "category": "research",
+  "tree": "Base",
+  "node_class": "EraReward:Building",
+  "era": 2,
+  "era_reward": true,
+  "node_category": "Era Reward",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Space Science Library"
+ },
+ {
+  "id": 7658100259,
+  "key": "Base_Era3_BaseMovingBoost",
+  "category": "research",
+  "tree": "Base",
+  "node_class": "EraReward:Boost",
+  "era": 3,
+  "era_reward": true,
+  "node_category": "Era Reward",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Itinerant Construction"
+ },
+ {
+  "id": 7658100260,
+  "key": "Base_Era4_BuildingUpkeepBoost",
+  "category": "research",
+  "tree": "Base",
+  "node_class": "EraReward:Boost",
+  "era": 4,
+  "era_reward": true,
+  "node_category": "Era Reward",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Operational Efficiency"
+ },
+ {
+  "id": 7658100261,
+  "key": "Missions_Era1_PayloadReliabilityBoost",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "EraReward:Boost",
+  "era": 1,
+  "era_reward": true,
+  "node_category": "Era Reward",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Space Systems Expertise"
+ },
+ {
+  "id": 7658100262,
+  "key": "Missions_Era2_PayloadBuildBoost",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "EraReward:Boost",
+  "era": 2,
+  "era_reward": true,
+  "node_category": "Era Reward",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Optimised Assembly"
+ },
+ {
+  "id": 7658100263,
+  "key": "milestone_flyby_pluto",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "EraReward:Mission",
+  "era": 3,
+  "era_reward": true,
+  "node_category": "Era Reward",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Pluto Flyby"
+ },
+ {
+  "id": 7658100264,
+  "key": "Missions_Era4_PayloadReliabilityBoost",
+  "category": "research",
+  "tree": "Missions",
+  "node_class": "EraReward:Boost",
+  "era": 4,
+  "era_reward": true,
+  "node_category": "Era Reward",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Payload Mastery"
+ },
+ {
+  "id": 7658100265,
+  "key": "Vehicles_Era1_VehicleBoost",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "EraReward:Boost",
+  "era": 1,
+  "era_reward": true,
+  "node_category": "Era Reward",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Launch Systems Expertise"
+ },
+ {
+  "id": 7658100266,
+  "key": "Mechanic_Contractors_Era",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "EraReward:Mechanic",
+  "era": 2,
+  "era_reward": true,
+  "node_category": "Era Reward",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Additional Contractors"
+ },
+ {
+  "id": 7658100267,
+  "key": "Booster_Falcon9",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "EraReward:Booster",
+  "era": 3,
+  "era_reward": true,
+  "node_category": "Era Reward",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Wyvern (Era Reward)"
+ },
+ {
+  "id": 7658100268,
+  "key": "Vehicles_Era4_VehicleBoost",
+  "category": "research",
+  "tree": "Vehicles",
+  "node_class": "EraReward:Boost",
+  "era": 4,
+  "era_reward": true,
+  "node_category": "Era Reward",
+  "agencies": [
+   "USA",
+   "Russia",
+   "Europe",
+   "China",
+   "Japan"
+  ],
+  "name": "Vehicle Mastery"
+ }
+]

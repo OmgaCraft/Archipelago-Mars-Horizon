@@ -1,0 +1,8 @@
+* text=auto
+
+# Fichiers générés et APWorld : LF partout (comparaison exacte dans build_data.py --check)
+apworld/** text eol=lf
+docs/data-report.md text eol=lf
+*.py text eol=lf
+
+*.pdf binary
