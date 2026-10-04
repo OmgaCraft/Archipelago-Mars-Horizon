@@ -1,0 +1,11 @@
+<Project>
+  <!-- Chemin du jeu : GameDir.props (local, ignoré par git) > variable d'env MARS_HORIZON_DIR > chemin Steam par défaut -->
+  <Import Project="$(MSBuildThisFileDirectory)GameDir.props" Condition="Exists('$(MSBuildThisFileDirectory)GameDir.props')" />
+
+  <PropertyGroup>
+    <MarsHorizonDir Condition="'$(MarsHorizonDir)' == ''">$(MARS_HORIZON_DIR)</MarsHorizonDir>
+    <MarsHorizonDir Condition="'$(MarsHorizonDir)' == ''">C:\Program Files (x86)\Steam\steamapps\common\Mars Horizon</MarsHorizonDir>
+    <GameManagedDir>$(MarsHorizonDir)\Mars Horizon_Data\Managed</GameManagedDir>
+    <BepInExDir>$(MarsHorizonDir)\BepInEx</BepInExDir>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,6 @@
+<Project>
+  <!-- Copier ce fichier en GameDir.props et adapter le chemin vers le dossier du jeu. -->
+  <PropertyGroup>
+    <MarsHorizonDir>C:\Program Files (x86)\Steam\steamapps\common\Mars Horizon</MarsHorizonDir>
+  </PropertyGroup>
+</Project>
