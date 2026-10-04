@@ -25,6 +25,17 @@ Version visée : **Mars Horizon v1.4.2.1** (Steam, build Mono), **BepInEx 5.4.23
 
 4. Vérifier dans `BepInEx/LogOutput.log` : `Hello from MarsHorizonAP ...`.
 
+## Données du jeu (items, locations, table d'IDs)
+
+Extraites depuis le jeu par le plugin (mode dump), puis transformées par `tools/build_data.py`.
+Détails : [`docs/data-pipeline.md`](docs/data-pipeline.md) ; résultat : [`docs/data-report.md`](docs/data-report.md).
+
+```bash
+powershell -File tools/dump_game_data.ps1 -GameDir "D:\SteamApp\steamapps\common\Mars Horizon"
+python tools/build_data.py --game-dir "D:\SteamApp\steamapps\common\Mars Horizon"
+python -m unittest discover -s tools/tests
+```
+
 ## Décompiler le jeu
 
 Le code décompilé va dans `decompiled/` (ignoré par git : c'est le code d'Auroch Digital).
