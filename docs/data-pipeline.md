@@ -37,18 +37,18 @@ python -m unittest discover -s tools/tests
 
 ## Table d'IDs (`apworld/mars_horizon/data/ids.json`)
 
-- Base **7 658 100 000** (appid Steam 765810 × 10 000). Plages par catégorie, sans chevauchement :
+- Base **76 581 000** (appid Steam 765810 × 100, sous 2³¹ comme recommandé par Archipelago). Plages par catégorie, sans chevauchement :
 
   | Catégorie | Plage | Contenu |
   |---|---|---|
-  | `items.research` | 7658100001–7658109999 | déblocage d'une recherche (clé = id de recherche du jeu) |
-  | `items.bundle` | 7658110000–7658119999 | réservé : paquets (phase 2) |
-  | `items.filler` | 7658120000–7658129999 | réservé : argent / science / soutien |
-  | `items.trap` | 7658130000–7658139999 | réservé : pièges (phase 5) |
-  | `locations.research` | 7658200000–7658209999 | recherche d'un nœud terminée |
-  | `locations.building` | 7658210000–7658219999 | première construction d'un bâtiment |
-  | `locations.milestone` | 7658220000–7658229999 | jalon atteint |
-  | `locations.other` | 7658290000–7658299999 | réservé |
+  | `items.research` | 76581001–76590999 | déblocage d'une recherche (clé = id de recherche du jeu) |
+  | `items.bundle` | 76591000–76600999 | réservé : paquets (phase 2) |
+  | `items.filler` | 76601000–76610999 | réservé : argent / science / soutien |
+  | `items.trap` | 76611000–76620999 | réservé : pièges (phase 5) |
+  | `locations.research` | 76681000–76690999 | recherche d'un nœud terminée |
+  | `locations.building` | 76691000–76700999 | première construction d'un bâtiment |
+  | `locations.milestone` | 76701000–76710999 | jalon atteint |
+  | `locations.other` | 76771000–76780999 | réservé |
 
 - **Clés = ids internes du jeu**, pas les noms : la table reste valable quelle que soit la décision
   sur l'agence ou la granularité. Les variantes d'agence d'un même nœud ont chacune leur ID ; un slot

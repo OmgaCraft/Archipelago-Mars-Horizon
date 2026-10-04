@@ -71,13 +71,13 @@ Nœuds dont la recherche diffère selon l'agence (même nœud, ids différents) 
 
 ## Table d'IDs
 
-- items.research : 268 IDs (plage 7658100001–7658109999)
-- items.bundle : 0 IDs (plage 7658110000–7658119999)
-- items.filler : 3 IDs (plage 7658120000–7658129999)
-- items.trap : 0 IDs (plage 7658130000–7658139999)
-- locations.research : 256 IDs (plage 7658200000–7658209999)
-- locations.building : 30 IDs (plage 7658210000–7658219999)
-- locations.milestone : 39 IDs (plage 7658220000–7658229999)
-- locations.other : 0 IDs (plage 7658290000–7658299999)
+- items.research : 268 IDs (plage 76581001–76590999)
+- items.bundle : 0 IDs (plage 76591000–76600999)
+- items.filler : 3 IDs (plage 76601000–76610999)
+- items.trap : 0 IDs (plage 76611000–76620999)
+- locations.research : 256 IDs (plage 76681000–76690999)
+- locations.building : 30 IDs (plage 76691000–76700999)
+- locations.milestone : 39 IDs (plage 76701000–76710999)
+- locations.other : 0 IDs (plage 76771000–76780999)
 
-Changements lors de ce run : 3 (détail dans la sortie console).
+Changements lors de ce run : 596 (détail dans la sortie console).

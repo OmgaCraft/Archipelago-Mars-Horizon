@@ -31,8 +31,8 @@ DATA_DIR = ROOT / "apworld" / "mars_horizon" / "data"
 REPORT = ROOT / "docs" / "data-report.md"
 
 GAME = "Mars Horizon"
-# Steam appid 765810 x 10 000 : base propre au jeu, loin des petits entiers.
-BASE_ID = 7_658_100_000
+# Steam appid 765810 x 100 : base propre au jeu, sous 2^31 (limite recommandée par Archipelago).
+BASE_ID = 76_581_000
 # Plages (décalages depuis BASE_ID). Une catégorie ne déborde jamais sur une autre.
 RANGES: dict[tuple[str, str], tuple[int, int]] = {
     ("items", "research"): (1, 9_999),          # déblocage d'une recherche (nœud techno, variante d'agence)
