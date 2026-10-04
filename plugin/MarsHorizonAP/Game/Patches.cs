@@ -136,6 +136,7 @@ namespace MarsHorizonAP.Game
             }
             ApGame.MarkChecked(agency, lower);
             ApGame.SendResearchCheck(lower);
+            UiRefresh.ResearchTree();
             if (checkEraCompletion)
             {
                 // Le nœud n'était pas encore « fait » quand le jeu a évalué la récompense d'ère : on réévalue.

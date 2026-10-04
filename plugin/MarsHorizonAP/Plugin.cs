@@ -152,7 +152,10 @@ namespace MarsHorizonAP
                         needSync = false;
                         ApGame.SyncAllLocations(agency);
                     }
-                    ItemApplier.Apply(agency);
+                    if (ItemApplier.Apply(agency))
+                    {
+                        UiRefresh.ResearchTree();
+                    }
                 }
             }
             else if (connected)

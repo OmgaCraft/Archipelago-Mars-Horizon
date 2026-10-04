@@ -18,18 +18,19 @@ namespace MarsHorizonAP.Game
 
         public static int AppliedCount { get; private set; }
 
-        public static void Apply(Agency agency)
+        public static bool Apply(Agency agency)
         {
+            bool changed = false;
             ApSession session = ApGame.Session;
             if (!ApGame.IsBound(agency) || !session.Connected || ApGame.SlotMismatch(agency) != null)
             {
-                return;
+                return false;
             }
             int applied = (int)agency.memoryValues[ApGame.IndexKey];
             AppliedCount = applied;
             if (!session.HasPendingItems)
             {
-                return;
+                return false;
             }
             foreach (ReceivedItem item in session.DrainItems(applied))
             {
@@ -37,13 +38,15 @@ namespace MarsHorizonAP.Game
                 {
                     // Rafale incomplète (ne devrait pas arriver) : on attend la prochaine pour ne rien sauter.
                     Plugin.Log.LogWarning($"Item {item.Index} reçu alors que {applied} était attendu.");
-                    return;
+                    return changed;
                 }
                 ApplyOne(agency, item);
                 applied++;
                 agency.memoryValues[ApGame.IndexKey] = applied;
+                changed = true;
             }
             AppliedCount = applied;
+            return changed;
         }
 
         private static void ApplyOne(Agency agency, ReceivedItem item)
