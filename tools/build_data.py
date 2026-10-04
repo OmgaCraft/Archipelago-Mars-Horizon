@@ -44,6 +44,12 @@ RANGES: dict[tuple[str, str], tuple[int, int]] = {
     ("locations", "milestone"): (120_000, 129_999),  # jalon atteint (mission réussie)
     ("locations", "other"): (190_000, 199_999),      # réservé
 }
+# Filler (phase 2) : clé stable -> nom. Le montant appliqué en jeu est décidé côté plugin / slot_data.
+FILLER_ITEMS = {
+    "Filler_Funds": "Funding Grant",
+    "Filler_Science": "Research Data",
+    "Filler_Support": "Public Support",
+}
 TREE_ORDER = ["Base", "Missions", "Vehicles"]
 AGENCIES = ["USA", "Russia", "Europe", "China", "Japan"]
 DEFAULT_SCENARIO = "Scenario_Default"
@@ -387,6 +393,7 @@ def build_game_data(model: GameModel) -> dict:
     return {
         "meta": d["meta"],
         "rules": d["rules"],
+        "enums": d["enums"],
         "tech_trees": trees,
         "research": [strip(r, ("id", "unlock_at_start", "cost", "expertise", "valid_agencies", "added_in_version"))
                      | {"agencies": model.agencies_for_research(r["id"])} for r in d["research"]],
@@ -438,6 +445,10 @@ def build_lists(model: GameModel, table: dict) -> tuple[list[dict], list[dict]]:
             "agencies": model.agencies_for_research(rid),
         })
     unique_names(items, research_label)
+    for key, item_id in table["items"]["filler"].items():
+        items.append({"id": item_id, "key": key, "category": "filler", "name": FILLER_ITEMS[key]})
+    if len({i["name"] for i in items}) != len(items):
+        raise SystemExit("Nom de filler en conflit avec un item de recherche")
 
     locations = []
     for rid, loc_id in table["locations"]["research"].items():
@@ -584,6 +595,7 @@ def main() -> int:
     table = json.loads(ids_path.read_text(encoding="utf-8")) if ids_path.exists() else empty_table()
     id_log: list[str] = []
     assign_ids(table, "items", "research", research_keys(model), id_log)
+    assign_ids(table, "items", "filler", list(FILLER_ITEMS), id_log)
     assign_ids(table, "locations", "research", node_research_keys(model), id_log)
     assign_ids(table, "locations", "building", building_keys(model), id_log)
     assign_ids(table, "locations", "milestone", milestone_keys(model), id_log)

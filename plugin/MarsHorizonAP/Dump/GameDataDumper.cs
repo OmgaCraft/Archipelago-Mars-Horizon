@@ -89,6 +89,14 @@ namespace MarsHorizonAP.Dump
             };
 
             root["rules"] = DumpRules(data);
+            // Valeurs numériques : le jeu compare les portées avec >= sur l'enum (Simulation.cs:5287).
+            root["enums"] = new Dictionary<string, object>
+            {
+                ["Distance"] = EnumValues<Data.Distance>(),
+                ["VehiclePartSize"] = EnumValues<Data.VehiclePart.Size>(),
+                ["VehiclePartType"] = EnumValues<Data.VehiclePart.Type>(),
+                ["PlanetaryBody"] = EnumValues<Data.PlanetaryBody>(),
+            };
             root["research"] = data.researchRework.Select(r => new Dictionary<string, object>
             {
                 ["id"] = r.id,
@@ -430,6 +438,11 @@ namespace MarsHorizonAP.Dump
                 Errors.Add($"{context}: {e.GetType().Name}: {e.Message}");
                 return default;
             }
+        }
+
+        private static Dictionary<string, int> EnumValues<T>() where T : Enum
+        {
+            return Enum.GetValues(typeof(T)).Cast<T>().ToDictionary(v => v.ToString(), v => Convert.ToInt32(v));
         }
 
         private static List<string> Names(IEnumerable<Agency.Type> agencies)

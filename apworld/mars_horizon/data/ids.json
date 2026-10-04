@@ -306,6 +306,11 @@
    "Mechanic_Contractors_Era": 7658100266,
    "Booster_Falcon9": 7658100267,
    "Vehicles_Era4_VehicleBoost": 7658100268
+  },
+  "filler": {
+   "Filler_Funds": 7658120000,
+   "Filler_Science": 7658120001,
+   "Filler_Support": 7658120002
   }
  },
  "locations": {
@@ -643,7 +648,8 @@
  },
  "retired": {
   "items": {
-   "research": {}
+   "research": {},
+   "filler": {}
   },
   "locations": {
    "research": {},

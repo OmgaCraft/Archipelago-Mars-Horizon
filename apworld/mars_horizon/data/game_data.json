@@ -4,7 +4,7 @@
   "unity_version": "2019.4.21f1",
   "data_version_at_title": "1.4.2.0",
   "plugin_version": "0.0.2",
-  "dumped_at_utc": "2026-10-04T08:27:01.6384710Z",
+  "dumped_at_utc": "2026-10-04T11:59:39.2963519Z",
   "agencies": [
    "USA",
    "Russia",
@@ -36,6 +36,73 @@
    8,
    8
   ]
+ },
+ "enums": {
+  "Distance": {
+   "None": 0,
+   "Orbit": 1,
+   "Moon": 2,
+   "InnerPlanets": 3,
+   "OuterPlanets": 4,
+   "SO": 5,
+   "LEO": 6,
+   "GTO": 7,
+   "TLI": 8,
+   "TMI": 9,
+   "INT": 10,
+   "Increase1": 11
+  },
+  "VehiclePartSize": {
+   "None": 0,
+   "Small": 1,
+   "Medium": 2,
+   "Heavy": 3
+  },
+  "VehiclePartType": {
+   "None": 0,
+   "Rocket": 1,
+   "Booster": 2,
+   "Upper": 3,
+   "Supplementary": 4,
+   "Upgrade": 5
+  },
+  "PlanetaryBody": {
+   "None": 0,
+   "Sun": 1,
+   "Mercury": 2,
+   "Venus": 3,
+   "Earth": 4,
+   "Moon": 5,
+   "Mars": 6,
+   "Phobos": 7,
+   "Deimos": 8,
+   "AsteroidBelt": 9,
+   "Jupiter": 10,
+   "Io": 11,
+   "Europa": 12,
+   "Ganymede": 13,
+   "Callisto": 14,
+   "Saturn": 15,
+   "Mimas": 16,
+   "Iapetus": 17,
+   "Enceladus": 18,
+   "Rhea": 19,
+   "Tethys": 20,
+   "Titan": 21,
+   "Hyperion": 22,
+   "Phoebe": 23,
+   "Dione": 24,
+   "Uranus": 25,
+   "Ariel": 26,
+   "Umbriel": 27,
+   "Titania": 28,
+   "Oberon": 29,
+   "Neptune": 30,
+   "Triton": 31,
+   "Pluto": 32,
+   "KuiperBelt": 33,
+   "Comet": 34
+  }
  },
  "tech_trees": [
   {

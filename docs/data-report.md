@@ -2,9 +2,9 @@
 
 Généré par `tools/build_data.py` depuis le dump du plugin. Ne pas éditer à la main.
 
-- Jeu : v1.4.2.1 (Unity 2019.4.21f1), dump du 2026-10-04T08:27:01 UTC
+- Jeu : v1.4.2.1 (Unity 2019.4.21f1), dump du 2026-10-04T11:59:39 UTC
 - Recherches : 268 · bâtiments : 30 · pièces : 114 · payloads : 89 · missions : 39 · jalons : 39
-- Items candidats : 268 · locations candidates : 325
+- Items candidats : 271 · locations candidates : 325
 
 ## Arbres technologiques
 
@@ -73,9 +73,11 @@ Nœuds dont la recherche diffère selon l'agence (même nœud, ids différents) 
 
 - items.research : 268 IDs (plage 7658100001–7658109999)
 - items.bundle : 0 IDs (plage 7658110000–7658119999)
-- items.filler : 0 IDs (plage 7658120000–7658129999)
+- items.filler : 3 IDs (plage 7658120000–7658129999)
 - items.trap : 0 IDs (plage 7658130000–7658139999)
 - locations.research : 256 IDs (plage 7658200000–7658209999)
 - locations.building : 30 IDs (plage 7658210000–7658219999)
 - locations.milestone : 39 IDs (plage 7658220000–7658229999)
 - locations.other : 0 IDs (plage 7658290000–7658299999)
+
+Changements lors de ce run : 3 (détail dans la sortie console).
